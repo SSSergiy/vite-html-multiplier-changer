@@ -1,11 +1,12 @@
 Vite HTML Multiplier Changer
 Dear applicant,
 
-Welcome to the Vite HTML Multiplier Changer! In this project, you'll be working with files that follow a specific naming convention. For instance, if your file is named Header.html, the corresponding component tag should resemble the filename, such as
- &lt;p&gt;Header srcpars="html-components/Header.html" /&lt;/p&gt;. Ensure that you use a capital letter and adopt the self-closing tag format.
+Welcome to the Vite HTML Multiplier Changer! In this project, you'll be working with files that follow a specific naming convention. For instance, if your file is named Nameteg.html, the corresponding component tag should resemble the filename, such as
+ &lt;Header  srcpars="html-components/Header.html" / &gt; . 
+ Ensure that you use a capital letter and adopt the self-closing tag format.
 
 Getting Started
-To reuse a component, specify the path in the srcpars attribute where the HTML file is located – essentially, your HTML component. I'll provide screenshots to simplify the process for you.
+To reuse a component, specify the path in the srcpars="somefolder/Header.html" attribute where the HTML file is located – essentially, your HTML component. I'll provide screenshots to simplify the process for you.
 
 Changing Text Content
 To change all the text content within a specific tag in a reused component, use the data-text-1="text" attribute.
