@@ -1,46 +1,57 @@
-Vite HTML Multiplier Changer
-Dear applicant,
+"# vite-html-multiplier-changer" 
+dear applicant, here you just create a file with a capital letter. 
+As in react with the name Header.html, the name of the components reused for it should be similar to the name of the file 
 
-Welcome to the Vite HTML Multiplier Changer! In this project, you'll be working with files that follow a specific naming convention. For instance, if your file is named Nameteg.html, the corresponding component tag should resemble the filename, such as
- &lt;Header  srcpars="html-components/Header.html" / &gt; . 
- Ensure that you use a capital letter and adopt the self-closing tag format.
+&lt;Header srcpars="html-components/Header.html" /&gt;
 
-Getting Started
-To reuse a component, specify the path in the srcpars="somefolder/Header.html" attribute where the HTML file is located – essentially, your HTML component. I'll provide screenshots to simplify the process for you.
+, also with a capital letter. It should be in the form of a self-closing tag.
 
-Changing Text Content
-To change all the text content within a specific tag in a reused component, use the data-text-1="text" attribute.
-In the tag itself, indicate the same attribute with the same number along with the description you want to replace. For example:
+in the src pars attribute you need to write the path where the very HTML file that you want to reuse will be located, that same HTML component in other words It’s very simple my friend, I’ll take screenshots for you too to simplify your layout.
 
-&lt;p&gt;Header srcpars="html-components/Header.html" data-text-1="description Bro" /&lt;/p&gt;
+if in a reused component you want to change all the text content in a certain tag, you need to write the date text
+ data-text-1="text".
 
-Changing Text in a Specific Tag
-If you wish to change the text specifically within a certain tag, use double curly braces and specify attributes inside. For example:
+in the tag itself, my dear You are an applicant, you need to indicate the same attribute with the same number with the description that you want to replace for exemple:
 
-{{data-mark-1:ttttttttttttttttttttt}}
+&lt;Header srcpars="html-components/Header.html" data-text-1="description Bro" /&gt;.
 
-In the reused component, specify the corresponding attribute. For instance:
+if you, my dear applicant, want to change the text specifically in a certain tag, you need to take its curly braces twice and specify certain attributes inside, for example:
 
-&lt;p&gt;Header srcpars="html-components/Header.html" data-mark-1="Heloyin" /&lt;/p&gt;
+{{data-mark-1:ttttttttttttttttttttt}}.
 
-Changing Attributes in a Specific Tag
-Change attributes of the reused component in a specific tag by specifying the data-attribute attribute with a certain number. Ensure this attribute is at the end of the tag for it to work. For example:
+in the reused component itself, my dear applicant, you need to indicate the following brand, for example:
 
-&lt;p&gt;img width="100px" alt="img" data-attribute-1="src" src="public/Avatar.png">
+&lt;Header srcpars="html-components/Header.html" data-mark-1="Heloyin" /&gt;.
 
-In the reused component, indicate the same data-attribute attribute with the value you want to change to. For example:
+in this attribute data-mark-1 with a number you need to indicate the value of this attribute word or combination What do you want to change to and you won’t believe it will work.
 
-&lt;p&gt;Header srcpars="html-components/Header.html" data-attribute-1="public/vite.svg" /&lt;/p&gt;
+that's not all, my dear applicant, a bonus awaits you, you still have the opportunity to change the attributes of the reused component in a certain tag that you want, you just need to specify the date attribute with a certain number and the value of this attribute should be the name of the attribute that you want to replace, for example
 
-Changing All Text in a Tag
-Another useful option is changing all the text in a certain tag in a reused component. Specify the data-text attribute with a certain number and the value text at the end of this tag. For example:
+ &lt;img width="100px" alt="img" data-attribute-1="src" src="public/Avatar.png"&gt;.
 
-&lt;p&gt;h1 data-text-1="text"> ttttttttttttttttttttttttttttt&lt;p&gt;/h1&lt;/p&gt;
+very important point Be careful the attribute that you want to change in a certain tag must be at the end of the tag the data-attribute-1="src" must be before it only then it will work. for exemple:
 
-In the reused component, specify the same data-text attribute with the value you want to change the text to. For example:
+&lt;img width="100px" alt="img" data-attribute-1="src" src="public/Avatar.png"&gt;.
 
-&lt;p&gt;Header srcpars="html-components/Header.html" data-text-1="Hello" &lt;/p&gt;
+in the reused component itself, you indicate the same date attribute with the value of what you want to change to, for example:
 
-To summarize, you have the flexibility to change text completely within a tag, modify attributes, and alter words or phrases in the reused component.
+&lt;Header srcpars="html-components/Header.html" data-attribute-1="public/vite.svg" /&gt;.
 
-I'll include more screenshots to enhance your understanding. Best of luck, dear applicant!
+my dear applicant, there is one more option. Very useful, let’s say you want to change all the text in a certain tag in a reused component, you can do this by specifying the date text with a certain number with the value text very important at the end of this tag, for example: 
+
+&lt;h1 data-text-1="text"&gt; ttttttttttttttttttttttttttttt&lt;/h1&gt;.
+in the reused component itself, you will need to specify the same date text with the same number with the value that you want to change the same text to, for example:
+
+
+&lt;Header srcpars="html-components/Header.html" data-text-1="Hello" /&gt;.
+
+To summarize, we can change the text completely in the tag in the reused component, we can change the attributes that we want, and we can change the words or phrases that we want in the reused component.
+
+I’ll make more screenshots for you to make it even more clear. Why did I tell you all this? Good luck to you, my dear applicant.
+
+
+
+
+<img  src="public/eniD8PNAzj.png">
+<img  src="public/KCGMtjhXxO.png">
+<img  src="public/kLKob20DE5.png">
